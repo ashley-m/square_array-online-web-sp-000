@@ -1,4 +1,4 @@
 def square_array(array)
-  index=0
-  array.each {|x| array[index]=x**2, index+=1}
+  squared = []
+  array.each {|x| squared<<x**2}
 end
